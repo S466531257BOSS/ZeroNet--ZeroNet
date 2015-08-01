@@ -1,34 +1,33 @@
 # ZeroNet
 
-Decentralized websites using Bitcoin crypto and the BitTorrent network - http://zeronet.io
+Dezentralisierte Web-Sites unter Nutzung von Bitcoin Verschlüsselung und des BitTorrent-NetzWerk - http://zeronet.io
 
 
-## Why?
+## Warum?
 
-* We believe in open, free, and uncensored network and communication.
-* No single point of failure: Site remains online so long as at least 1 peer
-  serving it.
-* No hosting costs: Sites are served by visitors.
-* Impossible to shut down: It's nowhere because it's everywhere.
-* Fast and works offline: You can access the site even if your internet is
-  unavailable.
+* Wir glauben an offene, freie, und unzensierte NetzWerke und KommuniKation.
+* Kein einzelner Punkt des Versagens: Die Site besteht online so lang wie mindestens 1 Peer
+  sie verteilt.
+* Keine Hosting-Kosten: Sites werden von den Besuchern bereitgestellt.
+* Unmöglich abzustellen: Es ist nirgendwo denn es ist überall.
+* Schnell und arbeitet offline: Du kannst auf deine Site zugreifen selbst wenn dein Internet nicht erreichbar ist.
 
 
-## Features
- * Real-time updated sites
- * Namecoin .bit domains support
- * Easy to setup: unpack & run
- * Password-less [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) 
-   based authorization: Your account is protected by same cryptography as your Bitcoin wallet
- * Built-in SQL server with P2P data synchronization: Allows easier site development and faster page load times
- * Tor network support
- * TLS encrypted connections
- * Automatic, uPnP port opening
- * Plugin for multiuser (openproxy) support
- * Works with any browser/OS
+## Merkmale
+ * In Echt-Zeit aktualisierte Sites
+ * Namecoin .bit Domains Unterstützung
+ * Einfach aufzusetzen: auspacken & laufenlassen
+ * PassWort-lose [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) 
+   basierte Authorisierung: Dein Konto ist geschützt durch die selbe Verschlüsselung wie deine Bitcoin-BriefTasche
+ * Eingebauter SQL-Server mit P2P Daten Synchronisierung: Erlaubt leichtere Site-Erstellung und schnellere Seiten-Lade-Zeiten
+ * Tor-Netzwerk-Unterstützung
+ * TLS-verschlüsselte Verbindungen
+ * Automatische, uPnP Port-Öffnung
+ * PlugIn für MehrNutzer (openproxy) Unterstützung
+ * Arbeitet mit jedem Browser/BetriebSystem
  
 
-## How does it work?
+## Wie funktioniert es?
 
 * After starting `zeronet.py` you will be able to visit zeronet sites using
   `http://127.0.0.1:43110/{zeronet_address}` (eg. 
